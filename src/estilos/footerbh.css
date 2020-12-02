@@ -1,0 +1,53 @@
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:  #F46E78;
+    margin-top: 50px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+footer ul li{
+   font-size: 16px;
+   display: block;
+}
+
+footer ul li a{
+    font-size: 14px;
+    color: white;
+    transition: all 0.5s;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.redes div{
+    border: solid 3px white;
+    color: white;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+    transition: all 0.5s;
+}
+
+.redes div a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.redes div:hover{
+    border-radius: 10px 20px;
+}
+
+footer ul li a:hover{
+    font-size: 16px;
+    text-decoration: none;
+}
