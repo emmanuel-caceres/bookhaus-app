@@ -1,0 +1,33 @@
+.contenedorCards{
+    background-color: #444;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedorCards .row{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorCards .row .botonA{
+    background-color: tomato;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorCards .row .botonA a{
+    color: white;
+    font-size: 20px;
+}
+
+h2{
+    margin-top: 50px;
+    color: white;
+}

@@ -1,0 +1,60 @@
+header{
+    width: 100%;
+    background-color: #444;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+
+    .row{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    ul{
+        li{
+            display: inline;
+            margin: 0px 20px 0px 20px;
+
+        a{
+            padding: 10px;
+            text-decoration: none;
+            color: white;
+
+            &:hover{
+                font-weight: bold;
+            }
+        }
+        }
+    }
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.logo img{
+    width: 30px;
+    margin-left: 10px;
+}
+
+.logo h2{
+    color: #F46E78;
+}
+
+// Carrito
+
+.cart{
+   font-size: 30px;
+   color: white;
+}

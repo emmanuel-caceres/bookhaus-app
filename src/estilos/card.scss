@@ -1,0 +1,50 @@
+.card{
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 30px 10px;
+    background-color: white;
+    border-radius: 10px;
+    transition: all 0.5s;
+
+    &:hover{
+        transform: scale(1.1);
+    }
+
+    img{
+        height: 250px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
+    h5{
+        font-size: 14px;
+        margin: 5px 5px 6px 5px;
+        height: 40px;
+        display: none;
+    }
+
+    h6{
+        margin: 0px 10px 6px 10px;
+        font-size: 14px;
+        font-weight: lighter;
+    }
+
+    p{
+        margin: 0;
+        font-size: 20px;
+    }
+
+    button{
+        width: 100%;
+        height: 40px;
+        background-color: #F46E78;
+        border: none;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 0px 0px 10px 10px;
+        margin-top: 10px;
+    }
+}
+

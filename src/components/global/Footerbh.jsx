@@ -1,4 +1,4 @@
-import '../../estilos/footerbh.css'
+import '../../estilos/footerbh.scss'
 
 function Footerbh() {
     return (
