@@ -4,24 +4,19 @@
     padding: 0;
     margin: 30px 10px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 5px;
     transition: all 0.5s;
 
-    &:hover{
-        transform: scale(1.1);
-    }
-
     img{
-        height: 250px;
-        border-radius: 10px;
-        object-fit: cover;
+        height: 200px;
+        object-fit: scale-down;
     }
 
     h5{
         font-size: 14px;
-        margin: 5px 5px 6px 5px;
+        margin: 10px 10px 0px 10px;
         height: 40px;
-        display: none;
+        color: black;
     }
 
     h6{
@@ -35,7 +30,35 @@
         font-size: 20px;
     }
 
-    button{
+    .cardContador{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0px 20px;
+
+        input{
+            width: 80px;
+            text-align: center;
+        }
+
+        button{
+            width: 30px;
+            height: 30px;
+            background-color: #949292;
+            border: none;
+            color: white;
+        }
+
+        .negative{
+            border-radius: 10px 0px 0px 10px;
+        }
+
+        .positive{
+            border-radius: 0px 10px 10px 0px;
+        }
+    }
+
+    .agregar{
         width: 100%;
         height: 40px;
         background-color: #F46E78;
@@ -43,7 +66,7 @@
         color: white;
         font-size: 20px;
         font-weight: bold;
-        border-radius: 0px 0px 10px 10px;
+        border-radius: 0px 0px 5px 5px;
         margin-top: 10px;
     }
 }

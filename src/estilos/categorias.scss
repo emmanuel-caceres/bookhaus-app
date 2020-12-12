@@ -1,0 +1,17 @@
+.categorias{
+    background-color: #666;
+    margin-top: 20px;
+    height: 35px;
+
+    ul{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+        list-style: none;
+
+        li{
+            color: white;
+        }
+    }
+}
