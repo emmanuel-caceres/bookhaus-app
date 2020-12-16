@@ -11,7 +11,14 @@
         list-style: none;
 
         li{
-            color: white;
+           a{
+               color: white;
+               text-decoration: none;
+
+               &:hover{
+                   color: #F46E78;
+               }
+           }
         }
     }
 }

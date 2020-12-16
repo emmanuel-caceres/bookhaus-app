@@ -7,6 +7,9 @@ function CartWidget () {
         <FaShoppingCart className="cart" /> 
             <div className="escondido">
                 <h6>Tu Carrito</h6>
+
+                <button>Comprar</button>
+
             </div>
         </div>
     )

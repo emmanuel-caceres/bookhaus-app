@@ -4,19 +4,19 @@ import ItemCount from './ItemCount';
 function Card ({imagen, precio, autor, titulo, alt}) {
     
     return (
-        <div className="col-12 col-md-3 card">
+        <div className="col-12 col-md-3">
+            <div className="card">
+                <h5>{titulo}</h5>
 
-        <h5>{titulo}</h5>
+                <img src={imagen} alt={alt} />
+            
+                <h6>{autor}</h6>
+            
+                <p className="precio">{precio}</p>
 
-        <img src={imagen} alt={alt} />
-       
-        <h6>{autor}</h6>
-       
-        <p className="precio">{precio}</p>
-
-        <ItemCount />
-        <button className="agregar">Agregar</button>
-
+                <ItemCount />
+                <button className="agregar">Agregar</button>
+            </div>
         </div> 
     )
 }

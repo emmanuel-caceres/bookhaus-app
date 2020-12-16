@@ -12,6 +12,7 @@ function App() {
     <>
     <Menubh />
     <Categorias />
+    <Carrousel />
     <CardCont />
     <Footerbh />
     </>
