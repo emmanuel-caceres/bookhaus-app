@@ -6,6 +6,7 @@ import Footerbh from './components/global/Footerbh';
 import CardCont from './components/tienda/CardCont';
 import Categorias from './components/global/Categorias';
 import Carrousel from './components/home/Carrousel';
+import ContDescription from './components/tienda/ContDescription';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <Categorias />
     <Carrousel />
     <CardCont />
+    <ContDescription />
     <Footerbh />
     </>
   );

@@ -1,0 +1,41 @@
+.contDescription{
+    background-color: white;
+    padding: 0px 0px 50px 0px;
+    margin: 0;
+
+    .row{
+        margin: 0;
+    }
+    
+    h2{
+        color: black;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+.salida{
+    background-color: #F46E78;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    color: white;
+
+    button{
+        width: 100%;
+        height: 60px;
+        border: none;
+        border-radius: 10px;
+        background-color: white;
+        box-shadow: 0px 0px 10px rgba($color: #000000, $alpha: 1.0);
+        margin-top: 30px;
+        transition: all 0.5s;
+        font-size: 20px;
+
+        &:hover{
+            box-shadow: 0px 0px 25px rgba($color: #000000, $alpha: 1.0);
+            font-weight: bolder;
+            background-color: rgba($color: white, $alpha: 0.8);
+        }
+    }
+}
