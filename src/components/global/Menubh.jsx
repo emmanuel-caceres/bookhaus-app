@@ -1,7 +1,7 @@
 import '../../estilos/menubh.scss';
+import {Link} from 'react-router-dom';
 import logo from '../../assets/globobh-01.svg';
 import CartWidget from './CartWidget';
-
 
 function Menubh() {
     return (
@@ -15,10 +15,10 @@ function Menubh() {
 
                 <nav className="col-9">
                     <ul>
-                        <li> <a href="#"> Inicio </a> </li>
-                        <li> <a href="#"> Nosotros </a> </li>
-                        <li> <a href="#"> Tienda </a> </li>
-                        <li> <a href="#"> Contacto </a> </li>
+                        <li> <Link to="/">Inicio</Link> </li>
+                        <li> <Link to="/category">Nosotros</Link> </li>
+                        <li> <Link to="/category">Tienda</Link> </li>
+                        <li> <Link to="/category">Contacto</Link> </li>
                     </ul>
                 </nav>
 

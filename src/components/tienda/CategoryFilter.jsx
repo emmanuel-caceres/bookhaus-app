@@ -1,33 +1,28 @@
 import '../../estilos/cardCont.scss';
-import {Link} from 'react-router-dom';
+import {Link, useParams} from 'react-router-dom';
 import Card from './Card';
 import { useEffect, useState } from 'react';
 import libro from './Productos';
 
-function CardCont() {
 
-    const [publibro, setpublibro] = useState([]);
+function CategoryFilter() {
 
-    const getLibros = new Promise ((resolve, reject) => {
-        setTimeout(() => {
-            resolve(libro)
-        }, 500)
-    })
+    const {fil} = useParams ();
 
-    useEffect (() => {
-        getLibros.then(rta => setpublibro(rta));
-    }, []);
+    const librosFiltrados = libro.filter(function (elem) {
+            return (elem.categoria == fil)
+    });
+    
 
     return (
         <div className="container contenedorCards">
 
             <div className="row">
             {
-                publibro.length ?
+                librosFiltrados.length ?
                 <>
-
                 {
-                    publibro.map((libro) => (
+                    librosFiltrados.map((libro) => (
                         <Card
                             id={libro.id}
                             imagen={libro.img}
@@ -38,22 +33,13 @@ function CardCont() {
                             ruta={libro.ruta}/>
                             
                     ))
-
-
                 }
-                    <div className="row">
-                        <div className="botonA">
-                        <Link to="/category">Ver Mas</Link>
-                        </div>
-                    </div>
                 </> :
                 <h2>Cargando Productos...</h2>
             }
-
-
         </div>
         </div>
     )
 };
 
-export default CardCont;
+export default CategoryFilter;

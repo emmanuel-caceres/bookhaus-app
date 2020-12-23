@@ -1,12 +1,12 @@
 import './../../estilos/itemDescription.scss';
-import CarrouselDescription from './CarrouselDescription'
+import {Link} from 'react-router-dom';
 
-function ItemDescription ({titulo, resenia, idioma, autor, dimensiones, publicacion, editorial, precio}) {
+function ItemDescription ({id, img, alt, titulo, resenia, idioma, autor, dimensiones, publicacion, editorial, precio}) {
     return(
         <div className="container">
             <div className="row">
-                <div className="col-12 col-md-6">
-                 <CarrouselDescription />
+                <div className="col-12 col-md-6 descriptionImg">
+                 <img src={img} alt={alt} />
                  <p className="mt-4">{resenia}</p>
                 </div>
 
@@ -24,7 +24,8 @@ function ItemDescription ({titulo, resenia, idioma, autor, dimensiones, publicac
                 <h3> {precio} </h3>
                 <hr/>
                 <p><strong>Tiempo de envio:</strong> 13-20 dias habiles</p>
-                <button>Añadir a la cesta</button>
+
+                <Link to="/resumen" className="botonResumen"> Añadir a la cesta </Link>
                 </div>
 
                 </div>
