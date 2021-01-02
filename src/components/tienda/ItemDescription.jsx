@@ -1,7 +1,8 @@
 import './../../estilos/itemDescription.scss';
-import {Link} from 'react-router-dom';
+import BotonResumen from './BotonResumen';
 
 function ItemDescription ({id, img, alt, titulo, resenia, idioma, autor, dimensiones, publicacion, editorial, precio}) {
+
     return(
         <div className="container">
             <div className="row">
@@ -25,7 +26,7 @@ function ItemDescription ({id, img, alt, titulo, resenia, idioma, autor, dimensi
                 <hr/>
                 <p><strong>Tiempo de envio:</strong> 13-20 dias habiles</p>
 
-                <Link to="/resumen" className="botonResumen"> Añadir a la cesta </Link>
+                <BotonResumen />
                 </div>
 
                 </div>
