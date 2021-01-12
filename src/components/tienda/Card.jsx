@@ -13,7 +13,7 @@ function Card ({id, imagen, precio, autor, titulo, alt, ruta}) {
             
                 <h6>{autor}</h6>
             
-                <p className="precio">{precio}</p>
+                <p className="precio">$ {precio}.-</p>
 
                 <ItemCount />
                 <Link to={ruta} className="agregar">Ver más</Link>

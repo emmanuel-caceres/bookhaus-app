@@ -13,16 +13,8 @@ function ContDescription() {
                 <h2>Detalles del Producto</h2>
             </div>
             <ItemDescription 
-            img={libro[productId].img}
-            alt={libro[productId].alt}
-            titulo={libro[productId].titulo}
-            resenia={libro[productId].resenia}
-            idioma={libro[productId].idioma}
-            autor={libro[productId].autor}
-            dimensiones={libro[productId].dimensiones}
-            publicacion={libro[productId].publicacion}
-            editorial={libro[productId].editorial}
-            precio={libro[productId].precio}/>
+            item={libro[productId]} />
+
         </div>
     )
 }

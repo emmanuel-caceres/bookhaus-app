@@ -15,11 +15,12 @@ const libro = [
         idioma: "Español",
         dimensiones: "145 x 208 x 48mm - 658g",
         publicacion: "30 Apr 2018",
-        precio: "ARS$3613.63",
+        precio: 3613.63,
         editorial: " V&R Edicione",
         alt: "Portada Cuentos de buenas noches para niñas rebeldes",
         img: libro01,
         ruta: "/category/0",
+        cant: 1,
         resenia: "En la Nueva York moderna, la magia está extinta. Las pocas personas que tienen algo de afinidad con ella -los Mageus- viven en las sombras. Cualquier Mageus que ingrese en Manhattan queda atrapado por la Brecha, una barrera de energía oscura que los confina. Cruzar la Brecha implica perder sus poderes y, casi inevitablemente, sus vidas.Estrella es una ladrona muy talentosa, y entrenada para robar artefactos mágicos de la Orden, los creadores de la Brecha. Con su habilidad innata para manipular el tiempo, ella puede saltar al pasado para conseguir esos artefactos antes de que la Orden lo note."
     },
     {
@@ -30,11 +31,12 @@ const libro = [
         idioma: "Español",
         dimensiones: "145 x 208 x 48mm - 658g",
         publicacion: "30 Apr 2018",
-        precio: "ARS$1099.00",
+        precio: 1099.50,
         editorial: " V&R Edicione",
         alt: "Portada El Ultimo Mago",
         img: libro02,
         ruta: "/category/1",
+        cant: 1,
         resenia: "En la Nueva York moderna, la magia está extinta. Las pocas personas que tienen algo de afinidad con ella -los Mageus- viven en las sombras. Cualquier Mageus que ingrese en Manhattan queda atrapado por la Brecha, una barrera de energía oscura que los confina. Cruzar la Brecha implica perder sus poderes y, casi inevitablemente, sus vidas.Estrella es una ladrona muy talentosa, y entrenada para robar artefactos mágicos de la Orden, los creadores de la Brecha. Con su habilidad innata para manipular el tiempo, ella puede saltar al pasado para conseguir esos artefactos antes de que la Orden lo note."
     },
     {
@@ -45,11 +47,12 @@ const libro = [
         idioma: "Español",
         dimensiones: "145 x 208 x 48mm - 658g",
         publicacion: "30 Apr 2018",
-        precio: "ARS$1674.00",
+        precio: 1674.40,
         editorial: " V&R Edicione",
         alt: "Portada El diseño de las cosas cotidiana",
         img: libro03,
         ruta: "/category/2",
+        cant: 1,
         resenia: "En la Nueva York moderna, la magia está extinta. Las pocas personas que tienen algo de afinidad con ella -los Mageus- viven en las sombras. Cualquier Mageus que ingrese en Manhattan queda atrapado por la Brecha, una barrera de energía oscura que los confina. Cruzar la Brecha implica perder sus poderes y, casi inevitablemente, sus vidas.Estrella es una ladrona muy talentosa, y entrenada para robar artefactos mágicos de la Orden, los creadores de la Brecha. Con su habilidad innata para manipular el tiempo, ella puede saltar al pasado para conseguir esos artefactos antes de que la Orden lo note."
     },
     {
@@ -60,11 +63,12 @@ const libro = [
         idioma: "Español",
         dimensiones: "145 x 208 x 48mm - 658g",
         publicacion: "30 Apr 2018",
-        precio: "ARS$1192.50",
+        precio: 1192.50,
         editorial: " V&R Edicione",
         alt: "Portada Fantastic Beasts and Where to Find Them",
         img: libro04,
         ruta: "/category/3",
+        cant: 1,
         resenia: "En la Nueva York moderna, la magia está extinta. Las pocas personas que tienen algo de afinidad con ella -los Mageus- viven en las sombras. Cualquier Mageus que ingrese en Manhattan queda atrapado por la Brecha, una barrera de energía oscura que los confina. Cruzar la Brecha implica perder sus poderes y, casi inevitablemente, sus vidas.Estrella es una ladrona muy talentosa, y entrenada para robar artefactos mágicos de la Orden, los creadores de la Brecha. Con su habilidad innata para manipular el tiempo, ella puede saltar al pasado para conseguir esos artefactos antes de que la Orden lo note."
     },
     {
@@ -75,11 +79,12 @@ const libro = [
         idioma: "Español",
         dimensiones: "145 x 208 x 48mm - 658g",
         publicacion: "30 Apr 2018",
-        precio: "ARS$2103.60",
+        precio: 2103.60,
         editorial: " V&R Edicione",
         alt: "Portada La Lección de August",
         img: libro05,
         ruta: "/category/4",
+        cant: 1,
         resenia: "En la Nueva York moderna, la magia está extinta. Las pocas personas que tienen algo de afinidad con ella -los Mageus- viven en las sombras. Cualquier Mageus que ingrese en Manhattan queda atrapado por la Brecha, una barrera de energía oscura que los confina. Cruzar la Brecha implica perder sus poderes y, casi inevitablemente, sus vidas.Estrella es una ladrona muy talentosa, y entrenada para robar artefactos mágicos de la Orden, los creadores de la Brecha. Con su habilidad innata para manipular el tiempo, ella puede saltar al pasado para conseguir esos artefactos antes de que la Orden lo note."
     },
     {
@@ -90,11 +95,12 @@ const libro = [
         idioma: "Español",
         dimensiones: "145 x 208 x 48mm - 658g",
         publicacion: "30 Apr 2018",
-        precio: "ARS$1350.00",
+        precio: 1350.10,
         editorial: " V&R Edicione",
         alt: "Portada Comida tipica Argentina Vegana",
         img: libro06,
         ruta: "/category/5",
+        cant: 1,
         resenia: "En la Nueva York moderna, la magia está extinta. Las pocas personas que tienen algo de afinidad con ella -los Mageus- viven en las sombras. Cualquier Mageus que ingrese en Manhattan queda atrapado por la Brecha, una barrera de energía oscura que los confina. Cruzar la Brecha implica perder sus poderes y, casi inevitablemente, sus vidas.Estrella es una ladrona muy talentosa, y entrenada para robar artefactos mágicos de la Orden, los creadores de la Brecha. Con su habilidad innata para manipular el tiempo, ella puede saltar al pasado para conseguir esos artefactos antes de que la Orden lo note."
     }
 ];

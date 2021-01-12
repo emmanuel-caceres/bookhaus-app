@@ -33,37 +33,7 @@
         font-size: 20px;
     }
 
-    .cardContador{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        padding: 0px;
-
-        input{
-            width: 80px;
-            text-align: center;
-        }
-
-        button{
-            width: 30px;
-            height: 30px;
-            background-color: #949292;
-            border: none;
-            color: white;
-
-            &:hover{
-                background-color: #F46E78;
-            }
-        }
-
-        .negative{
-            border-radius: 10px 0px 0px 10px;
-        }
-
-        .positive{
-            border-radius: 0px 10px 10px 0px;
-        }
-    }
+  
 
     .agregar{
         width: 100%;
@@ -82,3 +52,34 @@
     }
 }
 
+.cardContador{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+
+    input{
+        width: 80px;
+        text-align: center;
+    }
+
+    button{
+        width: 30px;
+        height: 30px;
+        background-color: #949292;
+        border: none;
+        color: white;
+
+        &:hover{
+            background-color: #F46E78;
+        }
+    }
+
+    .negative{
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    .positive{
+        border-radius: 0px 10px 10px 0px;
+    }
+}

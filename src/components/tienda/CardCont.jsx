@@ -4,6 +4,7 @@ import Card from './Card';
 import { useEffect, useState } from 'react';
 import libro from './Productos';
 
+
 function CardCont() {
 
     const [publibro, setpublibro] = useState([]);
@@ -17,6 +18,7 @@ function CardCont() {
     useEffect (() => {
         getLibros.then(rta => setpublibro(rta));
     }, []);
+
 
     return (
         <div className="container contenedorCards">

@@ -2,49 +2,55 @@
     "categoria": "infantiles",
     "titulo": "Cuentos de buenas noches para niñas rebeldes",
     "autor": "Elena Favilli",
-    "precio": "ARS$3613.63",
+    "precio": 3613.63,
     "alt": "Portada Cuentos de buenas noches para niñas rebeldes",
-    "img": "../../assets/libros/libro-01.jpg"
+    "img": "../../assets/libros/libro-01.jpg",
+    "cantidad": 1
 },
 {
     "categoria": "infantiles",
     "titulo": "El Ultimo Mago",
     "autor": "Lisa Maxwell",
-    "precio": "ARS$1099.00",
+    "precio": 1099.00,
     "alt": "Portada El Ultimo Mago",
-    "img": "../../assets/libros/libro-02.jpg"
+    "img": "../../assets/libros/libro-02.jpg",
+    "cantidad": 1
 },
 {
     "categoria": "arte-fotografia",
     "titulo": "El diseño de las cosas cotidianas",
     "autor": "Don Norman",
-    "precio": "ARS$1674.00",
+    "precio": 1674.00,
     "alt": "Portada El diseño de las cosas cotidiana",
-    "img": "../../assets/libros/libro-03.jpg"
+    "img": "../../assets/libros/libro-03.jpg",
+    "cantidad": 1
 },
 {
     "categoria": "infantiles",
     "titulo": "Fantastic Beasts and Where to Find Them",
     "autor": "J.K. Rowling",
-    "precio": "ARS$1192.50",
+    "precio": 1192.50,
     "alt": "Portada Fantastic Beasts and Where to Find Them",
-    "img": "../../assets/libros/libro-04.jpg"
+    "img": "../../assets/libros/libro-04.jpg",
+    "cantidad": 1
 },
 {
     "categoria": "infantiles",
     "titulo": "La Leccion de August",
     "autor": "R.J. Palacio",
-    "precio": "ARS$2103.60",
+    "precio": 2103.60,
     "alt": "Portada La Leccion de August",
-    "img": "../../assets/libros/libro-05.jpg"
+    "img": "../../assets/libros/libro-05.jpg",
+    "cantidad": 1
 },
 {
     "categoria": "food",
     "titulo": "Comida tipica Argentina Vegana",
     "autor": "Las hermanas veganas",
-    "precio": "ARS$1350.00",
+    "precio": 1350.00,
     "alt": "Portada Comida tipica Argentina Vegana",
-    "img": "../../assets/libros/libro-06.jpg"
+    "img": "../../assets/libros/libro-06.jpg",
+    "cantidad": 1
 },
 {
     "categoria": "food",
@@ -52,22 +58,25 @@
     "autor": "Salud vegana",
     "precio": "ARS$1530.00",
     "alt": "Portada Cocina Vegana para toda la familia",
-    "img": "../../assets/libros/libro-07.jpg"
+    "img": "../../assets/libros/libro-07.jpg",
+    "cantidad": 1
 },
 {
     "categoria": "food",
     "titulo": "I'll be there for you",
     "autor": "Harper Collins",
-    "precio": "ARS$1656.00",
+    "precio": 1656.00,
     "alt": "Portada Cocina Vegana para toda la familia",
-    "img": "../../assets/libros/libro-08.jpg"
+    "img": "../../assets/libros/libro-08.jpg",
+    "cantidad": 1
 },
 {
     "categoria": "arte-fotografia",
     "titulo": "Scar Tissue",
     "autor": "Anthony Kiedis",
-    "precio": "ARS$1514.00",
+    "precio": 1514.00,
     "alt": "Portada Scar Tissue",
-    "img": "../../assets/libros/libro-10.jpg"
+    "img": "../../assets/libros/libro-10.jpg",
+    "cantidad": 1
 }
 ]

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
@@ -12,9 +12,17 @@ import Error404 from "./components/global/Error404";
 import CategoryFilter from './components/tienda/CategoryFilter';
 import Resumen from './components/cart/Resumen';
 
+import {Store} from './Store';
+
 function App() {
 
+  const [data, setData] = useState({
+    productos: [],
+    cantidad: 0,
+  });
+
   return (
+    <Store.Provider value={[data, setData]}>
     <BrowserRouter>
       <Menubh />
       <Categorias />
@@ -48,6 +56,7 @@ function App() {
       </Switch>
       <Footerbh />
     </BrowserRouter>
+    </Store.Provider>
   );
 }
 
