@@ -11,6 +11,8 @@ import ContDescription from './components/tienda/ContDescription';
 import Error404 from "./components/global/Error404";
 import CategoryFilter from './components/tienda/CategoryFilter';
 import Resumen from './components/cart/Resumen';
+import CardDestacados from './components/tienda/CardDestacados';
+import CheckOut from "./components/cart/CheckOut";
 
 import {Store} from './Store';
 
@@ -19,6 +21,7 @@ function App() {
   const [data, setData] = useState({
     productos: [],
     cantidad: 0,
+    precioTotal: 0,
   });
 
   return (
@@ -30,7 +33,7 @@ function App() {
         
         <Route exact path="/">
           <Carrousel />
-          <CardCont />
+          <CardDestacados />
         </Route>
 
         <Route exact path="/category">
@@ -47,6 +50,10 @@ function App() {
 
         <Route path="/resumen">
           <Resumen />
+        </Route>
+
+        <Route path="/checkout">
+          <CheckOut />
         </Route>
 
         <Route path="*">

@@ -15,7 +15,6 @@ function Card ({id, imagen, precio, autor, titulo, alt, ruta}) {
             
                 <p className="precio">$ {precio}.-</p>
 
-                <ItemCount />
                 <Link to={ruta} className="agregar">Ver más</Link>
             </div>
         </div> 

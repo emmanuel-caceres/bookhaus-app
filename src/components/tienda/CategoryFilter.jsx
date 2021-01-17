@@ -1,28 +1,41 @@
 import '../../estilos/cardCont.scss';
-import {Link, useParams} from 'react-router-dom';
+import {useParams} from 'react-router-dom';
 import Card from './Card';
 import { useEffect, useState } from 'react';
-import libro from './Productos';
 
+import {getFirestore} from '../../firebase'
 
 function CategoryFilter() {
 
     const {fil} = useParams ();
+    const [filtro, setfiltro] = useState([]);
+    const db = getFirestore();
 
-    const librosFiltrados = libro.filter(function (elem) {
-            return (elem.categoria == fil)
-    });
-    
+    useEffect(() => {
+        if ( fil ) {
+            db.collection('productos').where('categoria', '==', fil).get()
+            .then(cont => {
+                let arr = [];
+
+                cont.forEach(libro => {
+                    arr.push(libro.data());
+                })
+
+                setfiltro(arr);
+
+            })
+        }
+    })
 
     return (
         <div className="container contenedorCards">
 
             <div className="row">
             {
-                librosFiltrados.length ?
+                filtro.length ?
                 <>
                 {
-                    librosFiltrados.map((libro) => (
+                    filtro.map((libro) => (
                         <Card
                             id={libro.id}
                             imagen={libro.img}

@@ -16,7 +16,7 @@ const libro = [
         dimensiones: "145 x 208 x 48mm - 658g",
         publicacion: "30 Apr 2018",
         precio: 3613.63,
-        editorial: " V&R Edicione",
+        editorial: "V&R Ediciones",
         alt: "Portada Cuentos de buenas noches para niñas rebeldes",
         img: libro01,
         ruta: "/category/0",

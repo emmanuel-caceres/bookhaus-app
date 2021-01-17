@@ -17,26 +17,29 @@ function Resumen () {
                 <div className="col-8">
                 {
                     data.productos.map((libro) => (
-                    <ul>
-                        <li> <img src={libro.img} alt={libro.alt}/> </li>
-                        <li>{libro.titulo}</li>
-                        <li>Cant: {libro.cant} un</li>
-                        <li>$ {libro.precio}</li>
-                        <li>X</li>
-                    </ul>
+                        <div className="articulos">
+                            <img src={libro.img} alt={libro.alt}/>
+                            <ul>
+                                <li><h6>{libro.titulo}</h6></li>
+                                <li>Cant: {libro.cant} un</li>
+                                <li>$ {libro.precio}</li>
+                            </ul>
+
+                            <h5>Subtotal ${libro.precio * libro.cant}</h5>
+
+                            <button className="eliminarProducto">X</button>
+                        </div>
                     ))
                 }
             </div>
-            
 
                 <div className="col-4 resumenCompra">
                     <h4>Resumen de compra</h4>
                     <p>Subtotal: $ {subtotal} </p>
                     <p>IVA: xxx </p>
 
-                    <Link to="" className="botonComprar"> Comprar </Link>
+                    <Link to="/checkout" className="botonComprar"> Comprar </Link>
                 </div>
-
             </div>
         </div>
     );

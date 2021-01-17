@@ -1,27 +1,42 @@
 .resumenProductos{
     background-color: #efefef;
     padding: 50px;
-    height: 70vh;
+    min-height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
 
-    ul{
-        width: 100%;
+    .articulos{
+
         display: flex;
-        list-style: none;
-        justify-content: space-between;
+        align-items: center;
+        margin-top: 15px;
 
-        li {
-            margin: 10px 30px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            img{
-                width: 50px;
-            }
+        img{
+            width: 80px;
         }
+
+        ul{
+            list-style: none;
+            width: 70%;
+
+        }
+
+        h5{
+            color: black;
+            margin-left: 30px;
+        }
+    }
+}
+
+.eliminarProducto{
+    width: 30px;
+    border-radius: 10px;
+    transition: all 0.5s;
+
+    &:hover{
+        background-color: #555;
+        color: white;
     }
 }
 
@@ -31,6 +46,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
     padding: 20px;
 
     .botonComprar{

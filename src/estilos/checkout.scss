@@ -1,0 +1,74 @@
+
+.col-6{
+    padding: 0;
+}
+
+.checkout{
+    background-color: #F46E78;
+    padding: 30px 0px 0px 0px;
+    margin: 50px 0px;
+    border-radius: 15px;
+
+
+        .contInput{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0px 20px;
+
+            div{
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+
+                label{
+                    margin-right: 20px;
+                    margin-top: 20px;
+                    width: 80px;
+                    color: white;
+                }
+
+                input{
+                    width: 100%;
+                    height: 30px;
+                    border-radius: 5px;
+                    border: none;
+                }
+
+                div{
+                    flex-direction: column;
+                    padding: 0px 20px;
+        
+                    label{
+                        width: 100%;
+                        text-align: center;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .botonPagar{
+        height: 50px;
+        width: 100%;
+        background-color: white;
+        border: none;
+    }
+
+    .ventaTerminada{
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        p{
+            color: white;
+            font-size: 20px;
+        }
+    }
+

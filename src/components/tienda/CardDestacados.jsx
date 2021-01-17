@@ -1,4 +1,5 @@
 import '../../estilos/cardCont.scss';
+import {Link} from 'react-router-dom';
 import Card from './Card';
 import { useEffect, useState } from 'react';
 
@@ -22,7 +23,10 @@ function CardCont() {
                 arr.push(doc.data())
             })
 
-            setpublibro(arr);
+            setpublibro(arr.filter(function (a) {
+                return (a.destacado == true)
+            })
+            );
            
         })
         .catch(e => console.log(e));
@@ -54,7 +58,14 @@ function CardCont() {
                             ruta={libro.ruta}/>
                             
                     ))
+
+
                 }
+                    <div className="row">
+                        <div className="botonA">
+                        <Link to="/category">Ver Mas</Link>
+                        </div>
+                    </div>
                 </> :
                 <h2>Cargando Productos...</h2>
             }
