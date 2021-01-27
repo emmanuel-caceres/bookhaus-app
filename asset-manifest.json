@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/bookhaus-app/static/css/main.e2b6d20f.chunk.css",
+    "main.js": "/bookhaus-app/static/js/main.7a90344c.chunk.js",
+    "main.js.map": "/bookhaus-app/static/js/main.7a90344c.chunk.js.map",
+    "runtime-main.js": "/bookhaus-app/static/js/runtime-main.4ea22b9d.js",
+    "runtime-main.js.map": "/bookhaus-app/static/js/runtime-main.4ea22b9d.js.map",
+    "static/css/2.1a02f21c.chunk.css": "/bookhaus-app/static/css/2.1a02f21c.chunk.css",
+    "static/js/2.d22941a1.chunk.js": "/bookhaus-app/static/js/2.d22941a1.chunk.js",
+    "static/js/2.d22941a1.chunk.js.map": "/bookhaus-app/static/js/2.d22941a1.chunk.js.map",
+    "static/js/3.cfe74627.chunk.js": "/bookhaus-app/static/js/3.cfe74627.chunk.js",
+    "static/js/3.cfe74627.chunk.js.map": "/bookhaus-app/static/js/3.cfe74627.chunk.js.map",
+    "index.html": "/bookhaus-app/index.html",
+    "static/css/2.1a02f21c.chunk.css.map": "/bookhaus-app/static/css/2.1a02f21c.chunk.css.map",
+    "static/css/main.e2b6d20f.chunk.css.map": "/bookhaus-app/static/css/main.e2b6d20f.chunk.css.map",
+    "static/js/2.d22941a1.chunk.js.LICENSE.txt": "/bookhaus-app/static/js/2.d22941a1.chunk.js.LICENSE.txt",
+    "static/media/globobh-01.499e08d0.svg": "/bookhaus-app/static/media/globobh-01.499e08d0.svg",
+    "static/media/portada-01.013ee530.jpg": "/bookhaus-app/static/media/portada-01.013ee530.jpg",
+    "static/media/portada-02.31b2b91a.jpg": "/bookhaus-app/static/media/portada-02.31b2b91a.jpg",
+    "static/media/portada-03.77169383.jpg": "/bookhaus-app/static/media/portada-03.77169383.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4ea22b9d.js",
+    "static/css/2.1a02f21c.chunk.css",
+    "static/js/2.d22941a1.chunk.js",
+    "static/css/main.e2b6d20f.chunk.css",
+    "static/js/main.7a90344c.chunk.js"
+  ]
+}
