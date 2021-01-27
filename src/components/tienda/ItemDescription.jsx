@@ -15,12 +15,28 @@ function ItemDescription({ item }) {
         setContador(1);
      };
 
-     const agregar = () => {
-         setData({
-             ...data,
-             cantidad: data.cantidad + contador,
-             productos: [...data.productos, item],
-         })
+     const agregar = (e) => {
+        
+        const duplicado = data.productos.find((prod) => prod.item.id == e);
+
+        if (duplicado) {
+
+            duplicado.cantidad=duplicado.cantidad + contador;
+            setData({
+                cantidad: data.cantidad + contador,
+                productos: [...data.productos],
+                precioTotal: data.precioTotal + (item.precio * contador)
+            })
+        }else {
+
+            setData({
+                ...data,
+                cantidad: data.cantidad + contador,
+                productos: [...data.productos, {item: item, cantidad: contador}],
+                precioTotal: data.precioTotal + (item.precio * contador)
+            });
+        }
+
          history.push('/resumen')
      };
 
@@ -43,7 +59,9 @@ function ItemDescription({ item }) {
                     <hr />
 
                     <div className="salida">
-                        <h3> {item.precio} </h3>
+                        <h3>Precio: $ {item.precio} </h3>
+
+                        <hr />
                         <div className="cardContador">
                             <button className="negative" onClick={() => setContador(contador - 1)}>-</button>
                             <p>{contador}</p>
@@ -51,7 +69,7 @@ function ItemDescription({ item }) {
                         </div>
                         <hr />
                         <p><strong>Tiempo de envio:</strong> 13-20 dias habiles</p>
-                        <button className="botonResumen" onClick={agregar}>Agregar</button>
+                        <button className="botonResumen" onClick={() => agregar(item.id)}>Agregar</button>
                     </div>
 
                 </div>

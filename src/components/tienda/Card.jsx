@@ -1,6 +1,5 @@
 import '../../estilos/card.scss';
 import {Link} from 'react-router-dom';
-import ItemCount from './ItemCount';
 
 function Card ({id, imagen, precio, autor, titulo, alt, ruta}) {
     

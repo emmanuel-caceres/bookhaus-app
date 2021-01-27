@@ -14,19 +14,35 @@
 }
 
 .contenedorCards .row .botonA{
-    background-color: #F46E78;
+    border: solid 4px white;
     width: 200px;
-    height: 50px;
+    height: 100px;
     border-radius: 10px;
     margin: 30px 0px 30px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 10px 10px 15px rgba($color: #000000, $alpha: 0.5);
+    transition: all 0.5s;
+
+    &:hover{
+        box-shadow: 10px 10px 55px rgba($color: #000000, $alpha: 0.5);
+    }
 }
 
 .contenedorCards .row .botonA a{
+    width: 100%;
+    height: 100%;
+    text-align: center;
     color: white;
-    font-size: 20px;
+    font-size: 30px;
+    padding: 25px;
+    transition: all 0.5s;
+
+    &:hover{
+        text-decoration: none;
+        font-weight: bolder;
+    }
 }
 
 h2{

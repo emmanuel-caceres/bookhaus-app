@@ -8,7 +8,7 @@ firebase.initializeApp({
 var db = firebase.firestore();
 var productos =[
     {   
-        "id": 1,
+        "id": 0,
         "categoria": "infantiles",
         "titulo": "Cuentos de buenas noches para niñas rebeldes",
         "autor": "Elena Favilli",
@@ -25,7 +25,7 @@ var productos =[
         "resenia": "En la Nueva York moderna, la magia está extinta. Las pocas personas que tienen algo de afinidad con ella -los Mageus- viven en las sombras. Cualquier Mageus que ingrese en Manhattan queda atrapado por la Brecha, una barrera de energía oscura que los confina. Cruzar la Brecha implica perder sus poderes y, casi inevitablemente, sus vidas.Estrella es una ladrona muy talentosa, y entrenada para robar artefactos mágicos de la Orden, los creadores de la Brecha. Con su habilidad innata para manipular el tiempo, ella puede saltar al pasado para conseguir esos artefactos antes de que la Orden lo note."
     },
     {
-        "id": 2,
+        "id": 1,
         "categoria": "infantiles",
         "titulo": "El Ultimo Mago",
         "autor": "Lisa Maxwell",
@@ -42,7 +42,7 @@ var productos =[
         "resenia": "En la Nueva York moderna, la magia está extinta. Las pocas personas que tienen algo de afinidad con ella -los Mageus- viven en las sombras. Cualquier Mageus que ingrese en Manhattan queda atrapado por la Brecha, una barrera de energía oscura que los confina. Cruzar la Brecha implica perder sus poderes y, casi inevitablemente, sus vidas.Estrella es una ladrona muy talentosa, y entrenada para robar artefactos mágicos de la Orden, los creadores de la Brecha. Con su habilidad innata para manipular el tiempo, ella puede saltar al pasado para conseguir esos artefactos antes de que la Orden lo note."
     },
     {
-        "id": 3,
+        "id": 2,
         "categoria": "arte-fotografia",
         "titulo": "El diseño de las cosas cotidianas",
         "autor": "Don Norman",
@@ -59,7 +59,7 @@ var productos =[
         "resenia": "En la Nueva York moderna, la magia está extinta. Las pocas personas que tienen algo de afinidad con ella -los Mageus- viven en las sombras. Cualquier Mageus que ingrese en Manhattan queda atrapado por la Brecha, una barrera de energía oscura que los confina. Cruzar la Brecha implica perder sus poderes y, casi inevitablemente, sus vidas.Estrella es una ladrona muy talentosa, y entrenada para robar artefactos mágicos de la Orden, los creadores de la Brecha. Con su habilidad innata para manipular el tiempo, ella puede saltar al pasado para conseguir esos artefactos antes de que la Orden lo note."
     },
     {
-        "id": 4,
+        "id": 3,
         "categoria": "infantiles",
         "titulo": "Fantastic Beasts and Where to Find Them",
         "autor": "J.K. Rowling",
@@ -76,7 +76,7 @@ var productos =[
         "resenia": "En la Nueva York moderna, la magia está extinta. Las pocas personas que tienen algo de afinidad con ella -los Mageus- viven en las sombras. Cualquier Mageus que ingrese en Manhattan queda atrapado por la Brecha, una barrera de energía oscura que los confina. Cruzar la Brecha implica perder sus poderes y, casi inevitablemente, sus vidas.Estrella es una ladrona muy talentosa, y entrenada para robar artefactos mágicos de la Orden, los creadores de la Brecha. Con su habilidad innata para manipular el tiempo, ella puede saltar al pasado para conseguir esos artefactos antes de que la Orden lo note."
     },
     {
-        "id": 5,
+        "id": 4,
         "categoria": "infantiles",
         "titulo": "La Lección de August",
         "autor": "R.J. Palacio",
@@ -93,7 +93,7 @@ var productos =[
         "resenia": "En la Nueva York moderna, la magia está extinta. Las pocas personas que tienen algo de afinidad con ella -los Mageus- viven en las sombras. Cualquier Mageus que ingrese en Manhattan queda atrapado por la Brecha, una barrera de energía oscura que los confina. Cruzar la Brecha implica perder sus poderes y, casi inevitablemente, sus vidas.Estrella es una ladrona muy talentosa, y entrenada para robar artefactos mágicos de la Orden, los creadores de la Brecha. Con su habilidad innata para manipular el tiempo, ella puede saltar al pasado para conseguir esos artefactos antes de que la Orden lo note."
     },
     {
-        "id": 6,
+        "id": 5,
         "categoria": "food",
         "titulo": "Comida tipica Argentina Vegana",
         "autor": "Las hermanas veganas",
@@ -110,7 +110,7 @@ var productos =[
         "resenia": "En la Nueva York moderna, la magia está extinta. Las pocas personas que tienen algo de afinidad con ella -los Mageus- viven en las sombras. Cualquier Mageus que ingrese en Manhattan queda atrapado por la Brecha, una barrera de energía oscura que los confina. Cruzar la Brecha implica perder sus poderes y, casi inevitablemente, sus vidas.Estrella es una ladrona muy talentosa, y entrenada para robar artefactos mágicos de la Orden, los creadores de la Brecha. Con su habilidad innata para manipular el tiempo, ella puede saltar al pasado para conseguir esos artefactos antes de que la Orden lo note."
     },
     {
-        "id": 7,
+        "id": 6,
         "categoria": "food",
         "titulo": "Cocina Vegana",
         "autor": " Brandon Bender",
@@ -127,7 +127,7 @@ var productos =[
         "resenia": `¿Es posible hacer una tortilla de patatas sin huevo?, ¿o unas albóndigas usando lentejas en lugar de carne? Sin duda la respuesta es sí. Cocinar sin ingredientes de origen animal es mucho más fácil de lo que podría parecer, y las recetas de este libro son una buena muestra de que se puede comer de forma vegana, sana y variada cada día.Brandon Bender y Kate Estivill, autores de la web Salud Vegana, descubrieron un mundo enorme y desconocido de ingredientes que nunca habían probado cuando se hicieron veganos, y fruto de su pasión porcompartir lo fácil que es comer vegano en casa surge este libro. En él tienen cabida desde galletas o batidos para los más pequeños, hasta platos con influencias orientales y británicas, pasando por otros más tradicionales. En total, más de 50 recetas fáciles, inspiradoras e imprescindibles para disfrutar del veganismo en familia.`
     },
     {
-        "id": 8,
+        "id": 7,
         "categoria": "Infantiles",
         "titulo": "I'll Be There For You",
         "autor": "Kelsey Miller",
@@ -144,7 +144,7 @@ var productos =[
         "resenia": "En la Nueva York moderna, la magia está extinta. Las pocas personas que tienen algo de afinidad con ella -los Mageus- viven en las sombras. Cualquier Mageus que ingrese en Manhattan queda atrapado por la Brecha, una barrera de energía oscura que los confina. Cruzar la Brecha implica perder sus poderes y, casi inevitablemente, sus vidas.Estrella es una ladrona muy talentosa, y entrenada para robar artefactos mágicos de la Orden, los creadores de la Brecha. Con su habilidad innata para manipular el tiempo, ella puede saltar al pasado para conseguir esos artefactos antes de que la Orden lo note."
     },
     {
-        "id": 9,
+        "id": 8,
         "categoria": "arte-fotografia",
         "titulo": "The Polaroid Book",
         "autor": "Barbara Hitchcock ",

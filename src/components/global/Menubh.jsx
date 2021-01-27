@@ -9,16 +9,16 @@ function Menubh() {
             <div className="row">
 
                 <div className="col-2 logo">
-                    <h2>BOOKHAUS</h2>
+                    <Link to="/"><h2>BOOKHAUS</h2></Link>  
                     <img src={logo} alt="logo bookhaus"/>
                 </div>
 
                 <nav className="col-9">
                     <ul>
                         <li> <Link to="/">Inicio</Link> </li>
-                        <li> <Link to="/category">Nosotros</Link> </li>
+                        <li> <Link to="/nosotros">Nosotros</Link> </li>
                         <li> <Link to="/category">Tienda</Link> </li>
-                        <li> <Link to="/category">Contacto</Link> </li>
+                        <li> <Link to="/contacto">Contacto</Link> </li>
                     </ul>
                 </nav>
 

@@ -4,7 +4,7 @@
     display: none;
     flex-direction: column;
     align-items: center;
-    width: 300px;
+    width: 400px;
     border-radius: 10px;
     background-color: white;
     z-index: 100;
@@ -16,21 +16,34 @@
     ul{
         list-style: none;
         display: flex;
-        justify-content: space-around;
         align-items: center;
         width: 100%;
         margin: 0;
-        padding: 0;
+        padding: 15px;
 
         li{
             margin: 0;
             margin-top: 10px;
+            
 
             img{
                 width: 50px;
                 border-radius: 5px;
                 object-fit: cover;
                 margin: 0;
+            }
+
+            p{
+                font-size: 14px;
+                text-align: start;
+                width: 270px;
+                margin: 0px 15px;
+                
+            }
+
+            h5{
+                color: black;
+                margin: 0px 15px;
             }
         }
     }
@@ -59,9 +72,19 @@
     }
 }
 
-button{
+.cardWidgetButton{
     width: 100%;
-    height: 30px;
+    height: 50px;
     border-radius: 0 0 10px 10px;
     margin-top: 20px;
+    background-color: #F46E78;
+
+    &:hover{
+        font-weight: border;
+        color: white;
+    }
+}
+
+.marPointer{
+   cursor: pointer; 
 }

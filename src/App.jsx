@@ -13,8 +13,10 @@ import CategoryFilter from './components/tienda/CategoryFilter';
 import Resumen from './components/cart/Resumen';
 import CardDestacados from './components/tienda/CardDestacados';
 import CheckOut from "./components/cart/CheckOut";
-
+import Nosotros from "./components/nosotros/Nosotros"
+import Contacto from './components/nosotros/Contacto';
 import {Store} from './Store';
+
 
 function App() {
 
@@ -46,6 +48,14 @@ function App() {
 
         <Route path="/filter/:fil">
           <CategoryFilter />
+        </Route>
+
+        <Route path="/nosotros">
+          <Nosotros />
+        </Route>
+
+        <Route path="/contacto">
+          <Contacto />
         </Route>
 
         <Route path="/resumen">

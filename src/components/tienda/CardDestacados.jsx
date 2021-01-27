@@ -39,8 +39,12 @@ function CardCont() {
 
     return (
         <div className="container contenedorCards">
+            <div className="row">
+                <h2>Productos Destacados</h2>
+            </div>
 
             <div className="row">
+
             {
                 publibro.length ?
                 <>
@@ -62,8 +66,8 @@ function CardCont() {
 
                 }
                     <div className="row">
-                        <div className="botonA">
-                        <Link to="/category">Ver Mas</Link>
+                        <div className="col-12 botonA">
+                        <Link to="/category">Visita la Tienda Online</Link>
                         </div>
                     </div>
                 </> :

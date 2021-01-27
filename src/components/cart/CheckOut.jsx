@@ -3,6 +3,7 @@ import './../../estilos/checkout.scss';
 import { useContext, useState } from "react";
 import { Store } from '../../Store';
 import { getFirestore } from '../../firebase';
+import {Link} from 'react-router-dom';
 
 import firebase from 'firebase/app';
 
@@ -41,6 +42,11 @@ function CheckOut() {
             .then(({ id }) => {
                 setventa(true);
                 setidCompra(id);
+                setData({
+                    productos: [],
+                    cantidad: 0,
+                    precioTotal: 0,
+                 });
             })
             .catch(e => console.log(e));
     }
@@ -63,7 +69,7 @@ function CheckOut() {
                                     <h4>Completa tus Datos</h4>
 
                                     <div>
-                                        <label htmlFor="name">Nombre y Apellido:</label>
+                                        <label htmlFor="name">Nombre:</label>
                                         <input type="text" value={usuario.nombre} onChange={handleChangeInput} name="nombre" />
                                     </div>
 
@@ -102,6 +108,12 @@ function CheckOut() {
                                 <p>Tu Pago se realizó con Exito</p>
                                 <p>El código de seguimiento es {idCompra}</p>
                             </div>
+                        </div>
+
+                        <div className="row">
+                        <div className="col-12 botonA">
+                        <Link to="/category">Volver la Tienda Online</Link>
+                        </div>
                         </div>
                     </div>
 

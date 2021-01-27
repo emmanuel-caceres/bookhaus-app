@@ -37,6 +37,7 @@ function CategoryFilter() {
                 {
                     filtro.map((libro) => (
                         <Card
+                            key={libro.id}
                             id={libro.id}
                             imagen={libro.img}
                             autor={libro.autor} 

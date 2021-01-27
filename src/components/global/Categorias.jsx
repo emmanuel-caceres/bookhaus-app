@@ -8,6 +8,7 @@ function Categorias () {
                 <li> <Link to="/filter/arte-fotografia"> Arte y Fotografia </Link> </li>
                 <li> <Link to="/filter/infantiles"> Infantiles </Link> </li>
                 <li> <Link to="/filter/food"> Food and Drick </Link> </li>
+                <li> <Link to="/category"> Ver Todo </Link> </li>
             </ul>
         </div>
     )
