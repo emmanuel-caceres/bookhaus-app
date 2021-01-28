@@ -49,7 +49,7 @@ function Resumen () {
                                 <li>Cant: {libro.cantidad} un</li>
                             </ul>
 
-                            <h5 className="mr-3">subtotal ${libro.item.precio.toFixed(0) * libro.cantidad.toFixed(0)}</h5>
+                            <h5 className="mr-3">subtotal ${libro.item.precio * libro.cantidad}</h5>
 
                             <button className="eliminarProducto" onClick={() => eliminaProducto(libro.item.id)}>X</button>
                         </div>

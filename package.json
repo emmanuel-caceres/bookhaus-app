@@ -1,8 +1,8 @@
 {
+  "homepage": "https://emmanuel-caceres.github.io/bookhaus-app/",
   "name": "bookhaus-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://emmanuel-caceres.github.io/bookhaus-app/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
