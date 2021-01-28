@@ -1,5 +1,5 @@
 
-GIT PAGES - https://emmanuel-caceres.github.io/
+GIT PAGES - https://emmanuel-caceres.github.io/bookhaus-app/
 
 # Getting Started with Create React App
 
